@@ -4,6 +4,7 @@ type ImagePlaceholderProps = {
   tall?: boolean;
   src?: string;
   alt?: string;
+  imageFit?: "cover" | "contain";
 };
 
 export function ImagePlaceholder({
@@ -12,6 +13,7 @@ export function ImagePlaceholder({
   tall = false,
   src,
   alt = "",
+  imageFit = "cover",
 }: ImagePlaceholderProps) {
   return (
     <div
@@ -24,7 +26,9 @@ export function ImagePlaceholder({
           <img
             src={src}
             alt={alt}
-            className="absolute inset-0 h-full w-full object-cover"
+            className={`absolute inset-0 h-full w-full ${
+              imageFit === "contain" ? "object-contain" : "object-cover"
+            }`}
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(8,8,7,0.1),rgba(8,8,7,0.46)),linear-gradient(90deg,rgba(8,8,7,0.22),transparent_48%,rgba(8,8,7,0.18))]" />
         </>

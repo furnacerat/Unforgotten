@@ -46,7 +46,13 @@ export default function ChapterOnePage() {
       </section>
 
       <section className="mx-auto grid max-w-7xl gap-8 pb-24 lg:grid-cols-2">
-        <ImagePlaceholder label="Field Journal Preview" className="min-h-[28rem]" />
+        <ImagePlaceholder
+          label="Field Journal Preview"
+          src="/images/field-journal.png"
+          alt="UNFORGOTTEN pocket field journal with cover, back, spine, inside pages, and detail views."
+          imageFit="contain"
+          className="min-h-[28rem] bg-[#f4efe5]"
+        />
         <div className="border border-white/10 bg-[#11100e] p-8 sm:p-10">
           <p className="text-xs uppercase tracking-[0.28em] text-[#a78a50]">
             Outreach Mission

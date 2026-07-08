@@ -3,7 +3,13 @@ import { ImagePlaceholder } from "./ImagePlaceholder";
 export function JournalPreview() {
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
-      <ImagePlaceholder label="Pocket Field Journal" className="min-h-[25rem]" />
+      <ImagePlaceholder
+        label="Pocket Field Journal"
+        src="/images/field-journal.png"
+        alt="UNFORGOTTEN pocket field journal with cover, back, spine, inside pages, and detail views."
+        imageFit="contain"
+        className="min-h-[25rem] bg-[#f4efe5]"
+      />
       <div className="fade-in lg:pl-10">
         <p className="text-xs uppercase tracking-[0.28em] text-[#a78a50]">
           The Field Journal

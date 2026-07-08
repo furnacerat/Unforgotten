@@ -9,7 +9,14 @@ export default function JournalPage() {
       intro="Every order includes a pocket-sized UNFORGOTTEN Field Journal. It begins with the chapter story, reflection prompts, and blank pages for the customer's own story."
     >
       <section className="mx-auto grid max-w-7xl gap-10 pb-28 lg:grid-cols-3">
-        <ImagePlaceholder label="Journal Cover" className="lg:col-span-2" tall />
+        <ImagePlaceholder
+          label="Journal Cover"
+          src="/images/field-journal.png"
+          alt="UNFORGOTTEN pocket field journal with cover, back, spine, inside pages, and detail views."
+          imageFit="contain"
+          className="bg-[#f4efe5] lg:col-span-2"
+          tall
+        />
         <div className="space-y-6 border border-white/10 bg-[#11100e] p-8 text-base leading-8 text-[#c6c0b5]">
           <p className="brand-serif text-3xl leading-snug text-[#f4efe5]">
             The garment is the reminder. The journal is the response.

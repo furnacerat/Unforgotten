@@ -28,6 +28,12 @@ body {
   font-family: var(--font-body), Arial, sans-serif;
 }
 
+@media (max-width: 1023px) {
+  body {
+    padding-bottom: 4.75rem;
+  }
+}
+
 ::selection {
   background: rgba(167, 138, 80, 0.35);
   color: var(--bone);
@@ -77,6 +83,14 @@ a {
 .focus-ring:focus-visible {
   outline: 1px solid var(--gold);
   outline-offset: 4px;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes fadeIn {
