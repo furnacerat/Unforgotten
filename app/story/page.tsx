@@ -25,7 +25,12 @@ export default function StoryPage() {
             Every Story Matters.
           </p>
         </div>
-        <ImagePlaceholder label="Story Portrait Placeholder" tall />
+        <ImagePlaceholder
+          label="Story Portrait"
+          src="/images/story-portrait.png"
+          alt="UNFORGOTTEN story artwork showing a figure walking through a stone arch toward light."
+          tall
+        />
       </section>
     </PageShell>
   );
