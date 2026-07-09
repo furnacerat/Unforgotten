@@ -44,13 +44,4 @@ export const products = [
       "Multiple views of The Lantern Hat in deep olive with antique gold embroidery.",
     href: "/products/the-lantern-hat",
   },
-  {
-    name: "Field Journal",
-    description:
-      "A pocket-sized place to carry the chapter and write your own story.",
-    imageSrc: "/images/field-journal.png",
-    imageAlt:
-      "UNFORGOTTEN pocket field journal with cover, back, spine, inside pages, and detail views.",
-    href: "/products/field-journal",
-  },
 ];
