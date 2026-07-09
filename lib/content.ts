@@ -10,8 +10,9 @@ export const navItems = [
 export const products = [
   {
     name: "The Shepherd Hoodie",
+    symbol: "Shepherd / Path",
     description:
-      "A heavyweight layer for the ones who keep walking through the dark.",
+      "Inspired by the Shepherd who walked into the dark to find the one.",
     imageSrc: "/images/shepherd-hoodie.png",
     imageAlt:
       "Front and back views of The Shepherd Hoodie with UNFORGOTTEN branding and Chapter 01 artwork.",
@@ -19,8 +20,9 @@ export const products = [
   },
   {
     name: "The One Tee",
+    symbol: "The One / Sheep",
     description:
-      "A quiet reminder that the single life still matters in the crowd.",
+      "A reminder that the single life still matters in the crowd.",
     imageSrc: "/images/one-tee.png",
     imageAlt:
       "Front and back views of The One Tee with UNFORGOTTEN branding and sheep artwork.",
@@ -28,8 +30,9 @@ export const products = [
   },
   {
     name: "The Valley Tee",
+    symbol: "Valley / Road",
     description:
-      "Made for the low places where being found becomes part of the story.",
+      "For the low places where being found becomes part of the story.",
     imageSrc: "/images/valley-tee.png",
     imageAlt:
       "Front and back mockup of The Valley Tee in olive with valley artwork.",
@@ -37,6 +40,7 @@ export const products = [
   },
   {
     name: "The Lantern Hat",
+    symbol: "Lantern / Hope",
     description:
       "A small signal of hope for long roads and late-night prayers.",
     imageSrc: "/images/lantern-hat.png",

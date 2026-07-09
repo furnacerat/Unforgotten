@@ -5,6 +5,7 @@ export type ProductDetail = {
   tagline: string;
   imageSrc?: string;
   imageAlt?: string;
+  storyMoment?: string[];
   story: string[];
   scripture: string;
   scriptureRef: string;
@@ -38,6 +39,10 @@ export const productDetails: Record<string, ProductDetail> = {
     imageSrc: "/images/shepherd-hoodie.png",
     imageAlt:
       "Front and back views of The Shepherd Hoodie with UNFORGOTTEN branding and Chapter 01 artwork.",
+    storyMoment: [
+      "Inspired by the Shepherd who walked into the dark to find the one.",
+      "A garment for those who keep moving, even when the path disappears.",
+    ],
     story: [
       "The Shepherd Hoodie was created for the ones still walking through weather, silence, and long roads home.",
       "Inspired by the shepherd who leaves the ninety-nine, this piece carries the reminder that being lost is not the same as being abandoned.",
@@ -57,6 +62,10 @@ export const productDetails: Record<string, ProductDetail> = {
     imageSrc: "/images/one-tee.png",
     imageAlt:
       "Front and back views of The One Tee with UNFORGOTTEN branding and sheep artwork.",
+    storyMoment: [
+      "A reminder that the single life still matters in the crowd.",
+      "For the ones who feel unseen but never are.",
+    ],
     story: [
       "The One Tee was created as a reminder that a single life is never small in the eyes of God.",
       "This chapter speaks to anyone who has felt hidden inside the crowd, overlooked in the room, or too far away to be noticed.",
@@ -76,6 +85,9 @@ export const productDetails: Record<string, ProductDetail> = {
     imageSrc: "/images/valley-tee.png",
     imageAlt:
       "Front and back mockup of The Valley Tee in olive with valley artwork.",
+    storyMoment: [
+      "For the low places where being found becomes part of the story.",
+    ],
     story: [
       "The Valley Tee was created as a reminder that the lowest places in life are often where hope begins.",
       "Inspired by Psalm 23, this chapter reminds us that valleys are not places where God abandons us. They are often where He walks closest beside us.",
@@ -95,6 +107,9 @@ export const productDetails: Record<string, ProductDetail> = {
     imageSrc: "/images/lantern-hat.png",
     imageAlt:
       "Multiple views of The Lantern Hat in deep olive with antique gold embroidery.",
+    storyMoment: [
+      "A small signal of hope for long roads and late-night prayers.",
+    ],
     story: [
       "The Lantern Hat was created as a small signal of hope for long roads and quiet searches.",
       "The lantern represents the light that keeps looking, even when the path is hard to see and the night feels longer than expected.",

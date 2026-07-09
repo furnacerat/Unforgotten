@@ -89,6 +89,24 @@ export function EditorialProductPage({ product }: EditorialProductPageProps) {
             {product.tagline}
           </p>
 
+          {product.storyMoment ? (
+            <section className="mt-9 border-l border-[#a78a50] pl-6">
+              <p className="text-[0.66rem] uppercase tracking-[0.26em] text-[#a78a50]">
+                Story Moment
+              </p>
+              <div className="mt-4 space-y-4">
+                {product.storyMoment.map((line) => (
+                  <p
+                    className="brand-serif text-2xl leading-snug text-[#f4efe5]"
+                    key={line}
+                  >
+                    {line}
+                  </p>
+                ))}
+              </div>
+            </section>
+          ) : null}
+
           <section className="mt-10 scroll-mt-48 border-t border-white/10 pt-8 lg:mt-12 lg:pt-9" id="story">
             <h2 className="brand-serif text-3xl text-[#f4efe5]">The Story</h2>
             {product.story.map((paragraph) => (
