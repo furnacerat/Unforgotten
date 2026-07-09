@@ -81,7 +81,8 @@ export default function StoryPage() {
           label="Story Portrait"
           src="/images/story-portrait.png"
           alt="UNFORGOTTEN story artwork showing a figure walking through a stone arch toward light."
-          className="min-h-[28rem] lg:min-h-[42rem]"
+          imageFit="contain"
+          className="!min-h-0 aspect-[3/2]"
         />
       </section>
 
